@@ -1,0 +1,13 @@
+{
+  "name": "subscription-finder",
+  "version": "1.0.0",
+  "description": "Find subscription-related emails by scanning an IMAP inbox for List-Unsubscribe headers and keywords.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "search": "node subscription_search.js"
+  },
+  "dependencies": {
+    "imapflow": "^1.0.154"
+  }
+}
